@@ -19,6 +19,7 @@ class Testing1
 	{
 		//polymorphism
 		R = new Cemployee("Roger", 50, 3);
+		R.setName("Bob");
 		J = new Semployee("Jimmy", 40,3);
 		M = new Hemployee("Mike", 40, 3);
 		Y = new Hemployee("Yasmine", 50, 3);
